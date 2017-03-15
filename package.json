@@ -1,0 +1,30 @@
+{
+  "name": "javascript-microtype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tokap/javascript-microtype.git"
+  },
+  "author": "Patrick Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tokap/javascript-microtype/issues"
+  },
+  "homepage": "https://github.com/Tokap/javascript-microtype#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "cluster": "^0.7.7",
+    "express": "^4.15.2",
+    "ramda": "^0.23.0",
+    "seneca": "^3.3.0",
+    "seneca-web": "^2.0.0",
+    "seneca-web-adapter-express": "^1.0.2",
+    "zmq": "^2.15.3"
+  }
+}
