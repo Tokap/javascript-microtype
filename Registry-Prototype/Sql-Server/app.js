@@ -14,6 +14,7 @@ const PATH    = "/insert/mysql"
 // -------- Helper Alias
 // -------------------------------------------------------------
 const _log = console.log
+const _exit = process.exit
 
 // -------------------------------------------------------------
 // -------- The Application Itself
@@ -38,7 +39,7 @@ const startServer = () => {
   })
   .catch( (err) => {
     console.error(err)
-    process.exit(0)
+    _exit(0)
   })
 
 
